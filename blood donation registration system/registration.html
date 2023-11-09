@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood donate page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+    <div class="container1"> 
+   <form>
+    
+    <h2>Donor Registration</h2><br><br>
+
+    <label for="r1" >Name</label><br>
+    <input type="text" name="fname" placeholder="FirstName"><br>
+
+    <label for="r2" >Father name</label><br>
+    <input type="text" name="fname" placeholder="FatherName"><br>
+
+    <label for="r3" >Email Id </label><br>
+    <input type="text" name="uid" id="r3" placeholder="Email Id"><br>
+
+    <label for="r4" >Age</label><br>
+    <input type="text" name="age" id="r4" placeholder="Age"><br>
+
+    
+
+    <label for="r5">Blood Group</label><br>
+   <select name="bloodgroup" tabindex="1">
+    <option value="-1">select value</option>
+
+    <option value="18">AB-Ve</option>
+    <option value="18">AB+Ve</option>
+    <option value="18">A-Ve</option>
+    <option value="18">A+Ve</option>
+    <option value="18">B-Ve</option>
+    <option value="18">B+Ve</option>
+    <option value="18">O-Ve</option>
+    <option value="18">O+Ve</option>
+   </select><br><br>
+
+   <label for="r6" >Gender</label><br>
+   <select name="Gender" tabimdex="1">
+       <option value="-1">select Gender</option>
+       <option value="18">Male</option>
+       <option value="18">Female</option>
+       <option value="18">Transgender</option> </select><br><br>
+
+       <label for="State">State</label><br>
+          
+       <select name="donorState" tabindex="1" onchange="loadAddressDistrictList(this.value)" class="form-control"><option value="-1">Select State</option>
+       
+    <option value="35">Andaman &amp; Nicobar Islands</option>
+<option value="28">Andhra Pradesh</option>
+<option value="12">Arunachal Pradesh</option>
+<option value="18">Assam</option>
+<option value="10">Bihar</option>
+<option value="94">Chandigarh</option>
+<option value="22">Chhattisgarh</option>
+<option value="26">Dadra &amp; Nagar Haveli</option>
+<option value="25">Daman &amp; Diu</option>
+<option value="97">Delhi</option>
+<option value="30">Goa</option>
+<option value="24">Gujarat</option>
+<option value="96">Haryana</option>
+<option value="92">Himachal Pradesh</option>
+<option value="91">Jammu and Kashmir</option>
+<option value="20">Jharkhand</option>
+<option value="29">Karnataka</option>
+<option value="32">Kerala</option>
+<option value="37">Ladakh</option>
+<option value="31">Lakshadweep</option>
+<option value="23">Madhya Pradesh</option>
+<option value="27">Maharashtra</option>
+<option value="14">Manipur</option>
+<option value="17">Meghalaya</option>
+<option value="15">Mizoram</option>
+<option value="13">Nagaland</option>
+<option value="21">Odisha</option>
+<option value="34">Puducherry</option>
+<option value="93">Punjab</option>
+<option value="98">Rajasthan</option>
+<option value="11">Sikkim</option>
+<option value="33">Tamil Nadu</option>
+<option value="36">Telangana</option>
+<option value="16">Tripura</option>
+<option value="95">Uttarakhand</option>
+<option value="99">Uttar Pradesh</option>
+<option value="19">West Bengal</option></select><br><br>
+
+<label for="District/City">District/City</label><br>
+<input type="text" name="District" placeholder="District/City"><br><br>
+
+   <button>Save</button>
+                   
+   </form> 
+</div>
+</body>
+</html>
